@@ -35,7 +35,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="80dp"
         android:text="単語の登録・削除"
-        android:textSize="35dp"
+        android:textSize="30dp"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
