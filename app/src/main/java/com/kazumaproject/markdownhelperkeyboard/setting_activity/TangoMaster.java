@@ -1,4 +1,4 @@
-package com.kazumaproject.markdownhelperkeyboard.setting_activity;
+/**package com.kazumaproject.markdownhelperkeyboard.setting_activity;
 
 import android.content.ContentValues;
 import android.content.Intent;
@@ -171,4 +171,4 @@ public class TangoMaster extends AppCompatActivity {
     public void onClose(View view) {
         finish(); //画面を閉じる
     }
-}
+}**/

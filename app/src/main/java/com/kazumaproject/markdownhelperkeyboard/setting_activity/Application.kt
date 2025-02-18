@@ -1,4 +1,4 @@
-package com.kazumaproject.markdownhelperkeyboard.setting_activity
+/*package com.kazumaproject.markdownhelperkeyboard.setting_activity
 
 import android.app.Application
 import com.kazumaproject.markdownhelperkeyboard.BuildConfig
@@ -16,4 +16,4 @@ class Application : Application(){
         val dexOutputDir: File = codeCacheDir
         dexOutputDir.setReadOnly()
     }
-}
+}*/

@@ -1,4 +1,4 @@
-package com.kazumaproject.markdownhelperkeyboard.setting_activity
+/*package com.kazumaproject.markdownhelperkeyboard.setting_activity
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -29,4 +29,4 @@ class DeleteActivity2 : AppCompatActivity() {
             startActivity(intent)
         }
     }
-}
+}*/

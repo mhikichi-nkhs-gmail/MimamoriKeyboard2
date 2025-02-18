@@ -6,69 +6,70 @@
     android:layout_height="match_parent"
     tools:context=".setting_activity.NewActivity1">
 
+    <Button
+        android:id="@+id/returnButton5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@android:color/transparent"
+        android:text="＜戻る"
+        android:textSize="20dp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
     <TextView
-        android:id="@+id/textView9"
-        android:layout_width="345dp"
-        android:layout_height="78dp"
-        android:layout_marginTop="32dp"
-        android:text="登録する情報を入力して下さい"
-        android:textSize="24sp"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:id="@+id/loginText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:text="新規登録"
+        android:textSize="40dp"
+        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent" />
 
     <EditText
-        android:id="@+id/etNew1"
-        android:layout_width="300dp"
-        android:layout_height="50dp"
-        android:layout_marginTop="52dp"
-        android:ems="10"
-        android:hint="メールアドレス"
-        android:inputType="text"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.513"
+        android:id="@+id/editUserName2"
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="250dp"
+        android:hint="ユーザー名"
+        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <EditText
-        android:id="@+id/etNew2"
-        android:layout_width="296dp"
-        android:layout_height="50dp"
-        android:layout_marginTop="32dp"
-        android:ems="10"
+        android:id="@+id/editPassword2"
+        android:layout_width="350dp"
+        android:layout_height="80dp"
         android:hint="パスワード"
-        android:inputType="text"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.513"
+        app:layout_constraintTop_toBottomOf="@id/editUserName2"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/etNew1" />
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editMail"
+        android:layout_width="350dp"
+        android:layout_height="80dp"
+        android:hint="メールアドレス"
+        app:layout_constraintTop_toBottomOf="@id/editPassword2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <Button
-        android:id="@+id/toNewActivity2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="52dp"
-        android:layout_marginBottom="232dp"
-        android:backgroundTint="@color/title_blue"
-        android:text="登録"
+        android:id="@+id/mainText"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:gravity="center"
+        android:layout_marginBottom="100dp"
+        android:backgroundTint="@color/gray"
+        android:text="完了"
+        android:textSize="40dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.984"
-        app:layout_constraintStart_toEndOf="@+id/backMainActivity"
-        app:layout_constraintTop_toBottomOf="@+id/etNew2"
-        app:layout_constraintVertical_bias="0.481" />
-
-    <Button
-        android:id="@+id/backMainActivity"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="232dp"
-        android:backgroundTint="@color/title_blue"
-        android:text="戻る"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.176"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/etNew2"
-        app:layout_constraintVertical_bias="0.481" />
+        app:layout_constraintEnd_toEndOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

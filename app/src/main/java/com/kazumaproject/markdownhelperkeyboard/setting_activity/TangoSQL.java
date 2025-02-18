@@ -1,4 +1,4 @@
-package com.kazumaproject.markdownhelperkeyboard.setting_activity;
+/**package com.kazumaproject.markdownhelperkeyboard.setting_activity;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
@@ -49,4 +49,4 @@ public class TangoSQL extends SQLiteOpenHelper {
     public void onDowngrade(SQLiteDatabase db, int oldVersion , int newVersion) {
         onUpgrade(db, oldVersion, newVersion);
     }
-}
+}**/

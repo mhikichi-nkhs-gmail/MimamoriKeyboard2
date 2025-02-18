@@ -1,4 +1,4 @@
-package com.kazumaproject.markdownhelperkeyboard.setting_activity;
+/*package com.kazumaproject.markdownhelperkeyboard.setting_activity;
 
 import android.content.Intent;
 import android.database.Cursor;
@@ -25,7 +25,7 @@ public class TangoDictionary extends AppCompatActivity {
         System.out.println("単語辞書");
 
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.database);
+        setContentView(R.layout.activity_word_list);
 
         //リストビュー
         myListView = findViewById(R.id.listView);
@@ -100,4 +100,4 @@ public class TangoDictionary extends AppCompatActivity {
         startActivity(intent);
 
     }
-}
+}*/
