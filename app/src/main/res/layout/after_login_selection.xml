@@ -7,7 +7,7 @@
     tools:context=".setting_activity.AfterLoginSelection">
 
     <Button
-        android:id="@+id/editWordButton"
+        android:id="@+id/selectionEditWordButton"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="160dp"
@@ -19,26 +19,26 @@
         app:layout_constraintEnd_toEndOf="parent" />
 
     <Button
-        android:id="@+id/editDetectionButton"
+        android:id="@+id/selectionEditDetectionButton"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/gray"
         android:layout_margin="80dp"
         android:text="検知動作の設定"
         android:textSize="30dp"
-        app:layout_constraintTop_toBottomOf="@id/editWordButton"
+        app:layout_constraintTop_toBottomOf="@id/selectionEditWordButton"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
     <Button
-        android:id="@+id/registrationInfoButton"
+        android:id="@+id/selectionResetButton"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/gray"
         android:layout_margin="80dp"
         android:text="登録情報の変更"
         android:textSize="30dp"
-        app:layout_constraintTop_toBottomOf="@id/editDetectionButton"
+        app:layout_constraintTop_toBottomOf="@id/selectionEditDetectionButton"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
@@ -50,7 +50,7 @@
         android:backgroundTint="@android:color/transparent"
         android:text="ログアウト"
         android:textSize="20dp"
-        app:layout_constraintTop_toBottomOf="@id/registrationInfoButton"
+        app:layout_constraintTop_toBottomOf="@id/selectionResetButton"
         app:layout_constraintEnd_toEndOf="parent"
         tools:ignore="InvalidId" />
 

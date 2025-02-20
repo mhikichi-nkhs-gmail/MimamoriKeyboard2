@@ -1,4 +1,4 @@
-/**package com.kazumaproject.markdownhelperkeyboard.setting_activity
+package com.kazumaproject.markdownhelperkeyboard.setting_activity
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -13,5 +13,10 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.main)
 
+        val button : Button = findViewById(R.id.button)
+        button.setOnClickListener {
+            val intent = Intent(this, LoginActivity::class.java)
+            startActivity(intent)
+        }
     }
-}**/
+}

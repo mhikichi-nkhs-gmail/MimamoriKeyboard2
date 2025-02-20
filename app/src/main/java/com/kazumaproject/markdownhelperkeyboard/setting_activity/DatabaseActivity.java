@@ -1,4 +1,4 @@
-/*package com.kazumaproject.markdownhelperkeyboard.setting_activity;
+package com.kazumaproject.markdownhelperkeyboard.setting_activity;
 
 import android.content.Intent;
 import android.database.Cursor;
@@ -97,4 +97,4 @@ public class DatabaseActivity extends AppCompatActivity {
         startActivity(intent);
 
     }
-}*/
+}

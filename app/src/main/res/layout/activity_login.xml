@@ -4,10 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".setting_activity.WelcomeActivity">
+    tools:context=".setting_activity.LoginActivity">
 
     <Button
-        android:id="@+id/returnButton"
+        android:id="@+id/loginReturnButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
@@ -21,7 +21,7 @@
     app:layout_constraintEnd_toEndOf="parent" → 右端に固定
     （layout_constraintRight_toRightOf でもOK） -->
     <Button
-        android:id="@+id/newUser"
+        android:id="@+id/loginNewUser"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
@@ -49,7 +49,7 @@
     <!--app:layout_constraintStart_toStartOf="parent" と
     app:layout_constraintEnd_toEndOf="parent" で、横方向の中央に配置。-->
     <EditText
-        android:id="@+id/editUserName"
+        android:id="@+id/loginEditUserName"
         android:layout_width="350dp"
         android:layout_height="100dp"
         android:layout_marginTop="250dp"
@@ -60,11 +60,11 @@
         tools:ignore="MissingConstraints" />
 
     <EditText
-        android:id="@+id/editPassword"
+        android:id="@+id/loginEditPassword"
         android:layout_width="350dp"
         android:layout_height="80dp"
         android:hint="パスワード"
-        app:layout_constraintTop_toBottomOf="@id/editUserName"
+        app:layout_constraintTop_toBottomOf="@id/loginEditUserName"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         tools:ignore="MissingConstraints" />
@@ -77,12 +77,12 @@
         android:backgroundTint="@color/gray"
         android:text="ログイン"
         android:textSize="25dp"
-        app:layout_constraintTop_toBottomOf="@id/editPassword"
+        app:layout_constraintTop_toBottomOf="@id/loginEditPassword"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
     <Button
-        android:id="@+id/forgetPassword"
+        android:id="@+id/loginForgetPassword"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="@android:color/transparent"

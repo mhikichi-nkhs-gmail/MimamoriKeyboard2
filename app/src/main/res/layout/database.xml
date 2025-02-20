@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".setting_activity.TangoDictionary">
+    tools:context=".setting_activity.DatabaseActivity">
 
     <Button
         android:id="@+id/returnButton2"
